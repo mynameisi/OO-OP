@@ -2,8 +2,9 @@
 *		这是用了基于过程的编程方法	
 *			
 */
-public class EatAndSleep {
 
+public class EatAndSleep {
+			//   function的定义在主方法的外面
 	public static void eat(String name,String food){
 		System.out.println(name+"正在吃"+food);
 	}
@@ -18,7 +19,6 @@ public class EatAndSleep {
 				
 		eat("李四","鲍鱼");
 		sleep("李四","白玉床");
-				
-	}
-
+		}
+	
 }
