@@ -3,8 +3,11 @@
 *			
 */
 
+//TODO: 不要用GBK作为默认的Encoding,要用UTF-8
 public class EatAndSleep {
-			//   function的定义在主方法的外面
+	/** TODO: 不要把PO的方法放到EatAndSleep类中，所有的静态方法应该有规律的放到一个理所当然的类里面比如：
+	 * 在Java的保重有一个Math类，里面基本上都是与Math有关的数学方法
+	 */
 	public static void eat(String name,String food){
 		System.out.println(name+"正在吃"+food);
 	}

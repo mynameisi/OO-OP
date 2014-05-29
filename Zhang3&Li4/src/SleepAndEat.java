@@ -2,10 +2,11 @@
 *		这是用了基于对象的编程方法	
 *			
 */
-
+//TODO: 把OO放到独立的包，独立的类文件中
 class OO{
 	private String name;
 	
+	//TODO: 用String name而不是String p
 	public OO(String p){
 		this.name=p;
 	}
